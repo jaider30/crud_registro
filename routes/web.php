@@ -19,6 +19,9 @@ Route::get('/', function () {
 
 Route::resource('registros','App\Http\Controllers\RegistroController');
 
+Route::resource('clientes','App\Http\Controllers\ClienteController');
+
+
 
 Route::middleware([
     'auth:sanctum',
